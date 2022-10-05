@@ -1,12 +1,12 @@
-// если вы хотите использовать sass-переменные - удалите root
-// colors
 :root {
-  // base
-  --font-family: "Open Sans", sans-serif;
-  --content-width: 1170px;
+
+  --font-family: 'Alegreya Sans', sans-serif;
+  --content-width: 1200px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-
-  // colors
   --light-color: #fff;
 }
+
+$titleColor: #000000;
+$textColor: #444A4A;
+$btnColor: #2D635E;

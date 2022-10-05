@@ -1,0 +1,55 @@
+.header {
+  padding-top: 36px;
+
+  &__logo {
+    display: flex;
+
+
+    & img {
+      margin-top: 10px;
+      width: 56px;
+      height: 34px;
+      margin-right: 12px;
+    }
+
+    & span {
+      @include cedarville;
+      font-size: 32px;
+      line-height: 60px;
+      color: #000;
+    }
+  }
+
+  &__menu {
+    @include mp0;
+    @include liststyle;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin-right: 90px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+  &__link {
+    color: $textColor;
+    @include josefin;
+    font-size: 16px;
+    line-height: 16px;
+    &_activ {
+      color: #fff;
+      padding: 13px 32px;
+      background-color: $btnColor;
+      border-radius: 6px;
+    }
+  }
+}
+
+.header-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

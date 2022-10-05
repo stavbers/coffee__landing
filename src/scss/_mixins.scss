@@ -1,5 +1,30 @@
 @import "./mixins/breakpoint";
 @import "./mixins/font-face";
 
-
-
+@mixin alegreya {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+}
+@mixin cedarville {
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: 400;
+}
+@mixin syne {
+  font-family: 'Syne', sans-serif;
+  font-weight: 400;
+}
+@mixin josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+@mixin mp0 {
+  margin: 0;
+  padding: 0;
+}
+@mixin liststyle {
+  list-style: none;
+}
+// 
+// font-family: 'Cedarville Cursive', cursive;
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Syne', sans-serif;
