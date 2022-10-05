@@ -1,0 +1,54 @@
+.footer {
+  &__map {
+    & img {
+      max-width: 650px;
+
+    }
+  }
+
+  &__info {
+    @include alegreya;
+    & span {
+      display: block;
+      margin-bottom: 16px;
+      font-size: 19px;
+      line-height: 36px;
+      color: #000;
+    }
+  }
+
+  &__title {
+    @include mp0;
+    @include josefin;
+    position: relative;
+    margin-bottom: 21px;
+    font-size: 32px;
+    line-height: 45px;
+    color: $textColor;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 19px;
+      left: -110px;
+      background-color: #000;
+      width: 90px;
+      height: 2px;
+    }
+  }
+
+  &__copy {  
+    @include alegreya;
+    @include mp0;
+    margin-top: 90px;
+    text-align: center;
+    color: $titleColor;
+    font-size: 19px;
+    line-height: 36px;
+  }
+}
+
+.footer-wrp {
+
+  display: flex;
+  justify-content: space-around;
+}
