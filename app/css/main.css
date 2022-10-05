@@ -129,4 +129,77 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+.screen1 {
+  padding-top: 50px;
+  padding-bottom: 500px;
+}
+.screen1__subtittle {
+  margin: 0;
+  padding: 0;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 53px;
+  color: #444A4A;
+}
+.screen1__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 26px;
+  margin-top: 26px;
+  font-size: 63px;
+  line-height: 63px;
+  color: #000;
+}
+.screen1__link {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  padding: 12px 35px;
+  background-color: #2D635E;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+}
+.screen1__picture {
+  position: relative;
+  background-color: #E3EBE7;
+  width: 410px;
+  height: 466px;
+  overflow: unset;
+}
+.screen1 img {
+  position: absolute;
+  display: block;
+  bottom: -50px;
+  left: 30px;
+  width: 344px;
+  height: 373px;
+  z-index: 2;
+}
+.screen1 span {
+  position: absolute;
+  bottom: 0px;
+  left: 130px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 136px;
+  color: #444A4A;
+}
+
+.screen1-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
