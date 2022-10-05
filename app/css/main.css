@@ -132,7 +132,6 @@ a {
 
 .screen1 {
   padding-top: 50px;
-  padding-bottom: 500px;
 }
 .screen1__subtittle {
   margin: 0;
@@ -201,5 +200,97 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.screen2 {
+  padding-top: 150px;
+}
+.screen2__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 157px;
+}
+.screen2__item:last-child {
+  margin-bottom: 0px;
+}
+.screen2__img {
+  position: relative;
+}
+.screen2__img:first-child {
+  background-color: #FAE9E0;
+  min-width: 380px;
+  min-height: 287px;
+  margin-right: 103px;
+}
+.screen2__img:first-child img {
+  position: absolute;
+  bottom: -57px;
+  right: -15px;
+  width: 364px;
+  height: 262px;
+}
+.screen2__img:last-child {
+  min-width: 410px;
+  min-height: 276px;
+  background-color: #E3EBE7;
+  margin-left: 103px;
+}
+.screen2__img:last-child img {
+  position: absolute;
+  bottom: -10px;
+  right: 80px;
+  width: 236px;
+  height: 320px;
+}
+.screen2__img span {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  position: absolute;
+  display: block;
+  font-size: 28px;
+  line-height: 53px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.screen2__img span:first-child {
+  top: 43px;
+  left: -43px;
+}
+.screen2__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  line-height: 38px;
+  font-size: 38px;
+  margin-bottom: 25px;
+  color: #000;
+}
+.screen2__descr {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  color: #444A4A;
+}
+.screen2__link {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  display: block;
+  padding: 14px 30px;
+  text-align: center;
+  width: 180px;
+  height: 48px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  background-color: #2D635E;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=main.css.map */
